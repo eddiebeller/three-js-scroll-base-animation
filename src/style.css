@@ -1,0 +1,65 @@
+*,
+p,
+ul,
+h1 {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: #1e1a20;
+}
+
+p {
+	line-height: 1.2;
+}
+
+.webgl {
+	position: fixed;
+	top: 0;
+	left: 0;
+	outline: none;
+}
+
+.section {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	position: relative;
+	font-family: 'Cabin', sans-serif;
+	color: #ffeded;
+	text-transform: uppercase;
+	font-size: 7vmin;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+section:nth-child(odd) {
+	justify-content: flex-end;
+}
+
+.section__title {
+	display: flex;
+	flex-direction: column;
+}
+
+.section__title--right {
+	align-items: flex-end;
+}
+
+.section__title--right p {
+	text-align: right;
+	width: 50%;
+}
+
+.section__title p {
+	font-size: 1rem;
+}
+
+.section__title ul {
+	list-style: none;
+}
+
+.section__title ul li a {
+	font-size: 20px;
+	text-decoration: none;
+	color: palevioletred;
+}
